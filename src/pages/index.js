@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from 'gatsby'
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
+import Img from "gatsby-image"
 
 export default function Home({ data }) {
   return (
@@ -21,7 +22,7 @@ export default function Home({ data }) {
           </div>
         </div>
         <div class="grow">
-          <img src="coffeHome.png" alt="frontpage banner" style={{ maxWidth: '90%'}} />
+          <Img fluid={ data.file.childImageSharp.fluid } />
         </div>
       </section>
     </Layout>
