@@ -2,7 +2,6 @@ import React from "react"
 import { graphql, Link } from 'gatsby'
 import Layout from "../components/Layout"
 import * as styles from '../styles/home.module.css'
-import Img from "gatsby-image"
 
 export default function Home({ data }) {
   return (
