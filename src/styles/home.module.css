@@ -1,0 +1,35 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+  }
+  .header h2 {
+    font-size: 4em;
+  }
+  .header h3 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: inline-block;
+    background: #1ed760;
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+  }
+
+  .growbtn{
+    transition: 1s ease;
+    }
+    
+    .growbtn:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 1s ease;
+    }
