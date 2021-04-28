@@ -11,7 +11,7 @@ export default function Home({ data }) {
         <div>
           <h2>Discover</h2>
           <h3>Unique Coffee</h3>
-          <strong>More than 6000 outstanding coffees.</strong><br/><br/> <p>Try our AI coffee connoisseur, discover
+          <strong>More than 6100 outstanding coffees.</strong><br/><br/> <p>Try our AI coffee connoisseur, discover
            the great variaty of coffeebeans, and buy coffee that tastes great every time.
            At BeanBusters we want to enable every coffee enthusiast to discover great coffee, 
            and stop you from ever buying a bad bag of coffee again.<br/><br/>
