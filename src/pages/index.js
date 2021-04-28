@@ -22,7 +22,7 @@ export default function Home({ data }) {
           </div>
         </div>
         <div class="grow">
-          <img src="/coffeHome.png" alt="frontpage banner" style={{ maxWidth: '90%'}} />
+          <img src="coffeHome.png" alt="frontpage banner" style={{ maxWidth: '90%'}} />
         </div>
       </section>
     </Layout>
