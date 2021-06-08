@@ -11,11 +11,13 @@ app.use(bodyParser.json({strict: false}));
 
 
  app.get('/', (request, response) => {
-    response.send('Hello World!')
+    response.send('Hello World!') // this is where the processing logic comes here, the model wil lbe here and have input parameters and make a call to db and then take a response for 
+    //db and then the model will process it, then send a respons to the front end 
+    
 }); 
 
 
-//Get User Endpoint
+//Get User Endpoint -- Søren will be calling these endpoints to 
 app.get('/users/:userId', function (req, res){
     const params = {
         TableName: USERS_TABLE,
